@@ -90,7 +90,7 @@ buttonEl.addEventListener("click", function() {
 })
 
 function copyit() {
-  const textToCopy = passwordOneEl.textContent; 
+  const textToCopy = passwordOneEl.textContent
   navigator.clipboard.writeText(textToCopy).then( 
     function () {
       errorMsg.textContent = textToCopy + " password copied successfully"
@@ -104,7 +104,7 @@ function copyit() {
 }
 
 function copyittwo() {
-  const textToCopyTwo = passwordTwoEl.textContent; 
+  const textToCopyTwo = passwordTwoEl.textContent
   navigator.clipboard.writeText(textToCopyTwo).then( 
     function () {
       errorMsg.textContent = textToCopyTwo + " password copied successfully"
