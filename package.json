@@ -8,7 +8,7 @@
     "babel-preset-react": "*"
   },
   "scripts": {
-    "build": "webpack",
+    "build": "nuxt generate",
     "watch": "webpack -w"
   }
 }
